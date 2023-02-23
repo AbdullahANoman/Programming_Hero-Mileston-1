@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Relative Absolute Static Sticky And Fixe & Z-Index Example</title>
+    <style>
+        .image-section{
+            position: relative;
+           
+        }
+        img{
+            border: 1px dashed orange;
+        }
+        .div1{
+            position: sticky;
+            z-index:2;
+            top: 70px;
+        }
+        .div2{
+            position: relative ;
+            top: 0;
+            z-index: 1;
+        }
+        .div3{
+            position: relative;
+            top: -95px;
+        }
+        .div4{
+            height: 100%;
+        }
+        
+      
+        .dummy{
+            height: 100px;
+            width: 200px;
+            background-color: palevioletred;
+        }
+        .dummy1{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="image-section">
+            <div class="div1"><img src="images/boy.svg" alt=""></div>
+            <div class="div2"><img src="images/ring.svg" alt=""></div>
+            <div class="div3"><img src="images/water.svg" alt=""></div>
+           <div class="dummy1"><p>I am Noman</p></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+           <div class="dummy"></div>
+        </div>
+    </section>
+
+
+
+    <section >
+        
+    </section>
+</body>
+</html>

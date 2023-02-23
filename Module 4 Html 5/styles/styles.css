@@ -1,0 +1,22 @@
+nav ul{
+    display: flex;
+    font-size: 24px;
+}
+nav ul li {
+    text-decoration-line: none;
+    margin-right: 200px;
+    list-style-type: none;
+}
+li a{
+    text-decoration-line: none;
+}
+
+nav ul li :hover{
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+}
+.dropdown{
+    display: block;
+    color:white;
+}

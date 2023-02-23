@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        fieldset{
+            margin-top: 15px;
+        }
+        input{
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Welcome to jamal er ma pitha ghor</h2>
+    </header>
+    <main>
+       <form>
+        <label for="name"> 
+            <input type="text" id="name" placeholder="Your Name">
+        </label>
+        <label for="email">
+            <input type="text" id="email" placeholder="Your Email">
+        </label>
+        <label for="phone">
+            <input type="number" id="number" placeholder="Your Phone Number">
+        </label>
+        
+        <fieldset>
+            <legend>Pick One Pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha">Chitoy Pitha
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha">Vapa Pitha
+            </label>
+            <label for="dal">
+                <input type="radio" name="pitha">Dal Er Pitha
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select one or more vortas</legend>
+            <label for="sorisha">
+                <input type="checkbox" name="vorta" id="sorisha">Sorisha
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">Shutki
+            </label>
+            <label for="donia">
+                <input type="checkbox" name="vorta" id="donia">Donia
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="comment" id="" cols="50" rows="5"></textarea>
+        </fieldset>
+
+        
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+       </form>
+    </main>
+</body>
+</html>
